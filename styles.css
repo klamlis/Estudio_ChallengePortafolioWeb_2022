@@ -6,3 +6,21 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header--list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+}
